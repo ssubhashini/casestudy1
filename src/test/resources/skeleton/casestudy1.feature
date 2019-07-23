@@ -16,6 +16,6 @@ Scenario Outline: Registration
  
  Examples:
  
-| name  | firstname |  lastname |  password  |  cpassword |  email        |mobileno     |    dob    |    address  |  answer |
-|govind | jairam    |   kunal   |  ssss123   |   ssss123  | sss@gmail.com |9876543210   |09/08/1996 |  no.32,xyz  |  blue   |
+| name  | firstname    |  lastname |  password  |  cpassword |  email        |mobileno     |    dob    |    address  |  answer |
+|govin  |   jai        |   kunal   |  ssss123   |   ssss123  | sss@gmail.com |9876543210   |09/08/1996 |  no.32,xyz  |  blue   |
  
