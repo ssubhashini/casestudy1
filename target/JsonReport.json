@@ -1,0 +1,215 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Registration",
+        "description": "",
+        "id": "testme-registration;registration;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16744809700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open the application",
+            "match": {
+              "location": "casestudystepdef.open_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 127860600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "provide user govind",
+            "match": {
+              "arguments": [
+                {
+                  "val": "govind",
+                  "offset": 13
+                }
+              ],
+              "location": "casestudystepdef.username(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 138451000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "provide user1 jairam",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jairam",
+                  "offset": 14
+                }
+              ],
+              "location": "casestudystepdef.firstname(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 139730900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "giving kunal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kunal",
+                  "offset": 7
+                }
+              ],
+              "location": "casestudystepdef.lastname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128078200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "gave ssss123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ssss123",
+                  "offset": 5
+                }
+              ],
+              "location": "casestudystepdef.password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127570800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "given ssss123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ssss123",
+                  "offset": 6
+                }
+              ],
+              "location": "casestudystepdef.cpassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 364612200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "mail as sss@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sss@gmail.com",
+                  "offset": 8
+                }
+              ],
+              "location": "casestudystepdef.email(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 219852000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "give no as 9876543210",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9876543210",
+                  "offset": 11
+                }
+              ],
+              "location": "casestudystepdef.mobileno(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 269259200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "dob as 09/08/1996",
+            "match": {
+              "arguments": [
+                {
+                  "val": "09/08/1996",
+                  "offset": 7
+                }
+              ],
+              "location": "casestudystepdef.userinfo(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 361609200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "type no.32,xyz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "no.32,xyz",
+                  "offset": 5
+                }
+              ],
+              "location": "casestudystepdef.add(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 827049500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "final blue",
+            "match": {
+              "arguments": [
+                {
+                  "val": "blue",
+                  "offset": 6
+                }
+              ],
+              "location": "casestudystepdef.security(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Testme registration",
+    "description": "  This file describes the registration process",
+    "id": "testme-registration",
+    "keyword": "Feature",
+    "uri": "src/test/resources/skeleton/casestudy1.feature",
+    "tags": []
+  }
+]
